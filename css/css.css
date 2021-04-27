@@ -1,0 +1,62 @@
+
+
+
+  .centering_parent {
+      font-family:cursive;  
+    padding: 20px;               /* 余白指定 */
+    /*background-color:  #ddd;     背景色指定 */
+   /* height: 100px;               高さ指定 */
+}
+
+.centering_item {    /* 中央寄せ */
+    text-align:  center; 
+     background-color: #ffffff00;  /*背景色指定 */
+}
+.image3{
+    width: 20%;
+}
+.images1{
+    z-index: 20;
+    position:absolute;
+    top: -20px;
+    text-align:  center; 
+    left:0;
+    right:0;
+    margin: auto;
+}
+.image1{
+
+    width: 50vw;
+
+}
+
+.images2{
+    position:absolute;
+    margin-top: 10vw;
+    z-index: 5;
+    
+}
+img.image2{
+    width:100vw;
+
+}
+
+.test1{
+    position: relative;
+    height: 100%;
+    /*background-color: #b9b9b9;*/
+}
+
+.test2{
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    height: 10vw;
+    width: 100vw;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #40D3E7;
+}
